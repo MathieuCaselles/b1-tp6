@@ -6,7 +6,7 @@
 
 J'enlève la carte NAT  
 Je définis les ip statiques  
-tous est fini meme ssh  
+tous est fini même ssh  
 
     [root@clien1 /]# ping client2
     PING client2 (10.6.201.11) 56(84) bytes of data.
@@ -518,7 +518,7 @@ Je fais le test et obtient cela:
 
 Cela a fonctionné car j'ai mis cel comme plage d'ip:
 
-range 10.6.201.50 10.6.201.70;
+    range 10.6.201.50 10.6.201.70;
 
 ### 4. Serveur DNS
 
