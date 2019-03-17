@@ -1,12 +1,6 @@
-# tp6
+# Rendu TP-6
 
-## Mise en place du lab
-
-
-### Checklist IP Routeurs
-
- Définition des IPs statiques avec conf t etc a expliquer  
- Définition du nom de domaine conf t hosname <nom> a expliquer  
+## Mise en place du lab 
 
 ### Checklist VMs
 
@@ -97,12 +91,12 @@ show ip ospf neighbor (exemple avec r1):
 show ip ospf neighbor (autre exemple avec r3):  
 
 
-R3#show ip ospf neighbor:  
+    R3#show ip ospf neighbor:  
 
-Neighbor ID     Pri   State           Dead Time   Address         Interface
-4.4.4.4           1   FULL/BDR        00:00:39    10.6.100.13     Ethernet0/1
-2.2.2.2           1   FULL/DR         00:00:36    10.6.100.9      Ethernet0/0
-5.5.5.5           1   FULL/BDR        00:00:34    10.6.101.2      Ethernet0/2
+    Neighbor ID     Pri   State           Dead Time   Address         Interface
+    4.4.4.4           1   FULL/BDR        00:00:39    10.6.100.13     Ethernet0/1
+    2.2.2.2           1   FULL/DR         00:00:36    10.6.100.9      Ethernet0/0
+    5.5.5.5           1   FULL/BDR        00:00:34    10.6.101.2      Ethernet0/2
 
 
 ping de r1 vers r5:  
@@ -522,7 +516,9 @@ Je fais le test et obtient cela:
         inet6 fe80::60bc:f6cd:53cc:4203/64 scope link noprefixroute
         valid_lft forever preferred_lft forever
 
-Cela a fonctionné car j'ai mis cel comme plage d'ip:    range 10.6.201.50 10.6.201.70;
+Cela a fonctionné car j'ai mis cel comme plage d'ip:
+
+range 10.6.201.50 10.6.201.70;
 
 ### 4. Serveur DNS
 
